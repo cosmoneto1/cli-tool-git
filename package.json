@@ -1,0 +1,22 @@
+{
+  "name": "cli-tool",
+  "version": "1.0.0",
+  "description": " Cli tool gerador de arquivos gitignore e readme",
+  "main": "cli.js",
+  "bin": "./cli.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [
+    "cli",
+    "tool"
+  ],
+  "author": "Cosmo Neto",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "enquirer": "^2.3.6",
+    "fs-jetpack": "^4.3.1"
+  }
+}
